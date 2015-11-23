@@ -70,8 +70,18 @@ hr {
     color: #333; /* old IE */
     background-color: #333; /* Modern Browsers */
 }
+.img-Fitted {
+    height: 250px;
+    width: 1140px;
+}
 @media only screen and (max-width: 500px) {
     p {
         display: none;
+    }
+    .img-phone {
+        display: none;
+    }
+    .phone {
+        text-align: center;
     }
 }
